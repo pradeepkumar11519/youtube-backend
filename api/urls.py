@@ -11,6 +11,9 @@ urlpatterns = [
     path('AddElementToKart/',AddElementToKart.as_view()),
     path('DeleteElementFromKart/',DeleteKartElement.as_view()),
     path('PlaceOrderThruCart/',PlaceOrderThroughCart.as_view()),
-    path('handlerequest/',handelrequest.as_view())
+    path('handlerequest/',handelrequest.as_view()),
+    path('handleEachOrderRequest/',handleEachOrderRequest.as_view()),
+    path('GetUsersOrderItems/',GetUsersOrderItems.as_view()),
+    path('GetUsersOrder/<int:pk>/',GetUsersOrder.as_view()),
     
 ]

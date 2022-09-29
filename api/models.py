@@ -87,11 +87,14 @@ class Order(models.Model):
         return '{0} - {1}'.format(self.id,self.tracking_no)
 
 class OrderedItem(models.Model):
+    user = models.ForeignKey(User,to_field="username",on_delete=models.CASCADE) 
     order = models.ForeignKey(Order,on_delete=models.CASCADE)
     product = models.ForeignKey(Product,on_delete=models.CASCADE)
+    title_of_product = models.CharField(max_length=225,null=True,blank=True,default=None)
     price_of_product = models.IntegerField(null=True,blank=True,default=None)
     quantity = models.IntegerField(null=True,blank=True,default=None)
     total_ordered_price = models.IntegerField(null=True,blank=True,default=None)
+    final_amount_with_gst = models.CharField(max_length=225,null=True,blank=True,default=None)
     size = models.CharField(max_length=225,null=True,blank=True,default=None)
     color = models.CharField(max_length = 225,null=True,blank=True,default=None)
     ordered_image_url = models.URLField(null=True,blank=True,default=None)

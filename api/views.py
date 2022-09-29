@@ -171,7 +171,7 @@ class PlaceOrderThroughCart(APIView):
         order_currency = "INR"
         notes = {'order-type':'BASIC ORDER FROMW EBSIOTE'}
         total_users_amount = int(request.data.get('total_ordered_price')) * 100
-        amount_with_gst = total_users_amount + total_users_amount*0.0236
+        amount_with_gst = total_users_amount + total_users_amount*0.0236 + 150*100
         razorpay_order = razorpay_client.order.create(dict(
                 amount = amount_with_gst,
                 currency = order_currency,
@@ -217,29 +217,99 @@ class handelrequest(APIView):
                             serializer.save()
                             for i in cart:
                                 OrderedItem.objects.create(
+                                user = user,
                                 order = Order.objects.get(id = serializer.data['id']),
                                 product = i.product,
                                 price_of_product = i.product_price,
                                 quantity = i.quantity,
                                 size = i.size,
+                                title_of_product = i.product_title,
                                 color = i.color,
+                                final_amount_with_gst = Order.objects.get(id = serializer.data['id']).final_amount_with_gst,
                                 total_ordered_price = i.total_price,
                                 ordered_image_url = i.product_image,
                                 )
-                            return Response('order succesfull')
+                            return Response('order succesfull',status=status.HTTP_200_OK)
                         else:
-                            return Response(serializer.errors)
+                            return Response(serializer.errors,status=status.HTTP_400_BAD_REQUEST)
                 
                 
                 else:
-                    return Response('unAuthorized')
+                    return Response('unAuthorized',status=status.HTTP_401_UNAUTHORIZED)
             except Exception as e:
                     print(e)
-                    return Response('payment unsuccesfull')
+                    return Response('payment unsuccesfull',status=status.HTTP_400_BAD_REQUEST)
         else:
             
-            return Response('payment unsuccesfull')
+            return Response('payment unsuccesfull',status=status.HTTP_400_BAD_REQUEST)
 
 
 
-   
+class handleEachOrderRequest(APIView):
+    authentication_classes = [JWTAuthentication]
+    permission_classes = [IsAuthenticated]
+    def post(self,request):
+        user = request.user
+        print('user',user)
+        data = request.data
+        print(data)
+        payment_id = request.data.get('razorpay_payment_id')
+        order_id = request.data.get('razorpay_order_id')
+        razorpay_signature = request.data.get('razorpay_payment_signature')
+        amount = float(request.data.get('final_amount_with_gst'))
+        print(data)
+        params_dict = {
+            'razorpay_order_id':order_id,
+            'razorpay_payment_id':payment_id,
+            'razorpay_signature':razorpay_signature
+        }
+        serializer = OrderSerializer(data = data)
+        result = razorpay_client.utility.verify_payment_signature(params_dict)
+        if result == True:
+            try:
+                if user.username == request.data.get('user'):
+                        razorpay_client.payment.capture(request.data.get('razorpay_payment_id'),amount)
+                        if(serializer.is_valid()):
+                            serializer.save()
+                            OrderedItem.objects.create(
+                                user = user,
+                                order = Order.objects.get(id = serializer.data['id']),
+                                product = Product.objects.get(id = data.get('product')),
+                                price_of_product = data.get('price_of_product'),
+                                title_of_product = Product.objects.get(id = data.get('product')).title,
+                                quantity = data.get('quantity'),
+                                final_amount_with_gst = Order.objects.get(id = serializer.data['id']).final_amount_with_gst,
+                                size = data.get('size'),
+                                color = data.get('color'),
+                                total_ordered_price = data.get('total_ordered_price'),
+                                ordered_image_url = data.get('ordered_image_url'),
+                                )
+                            return Response('order succesfull',status=status.HTTP_200_OK)
+                        else:
+                            return Response(serializer.errors,status=status.HTTP_400_BAD_REQUEST)
+                
+                
+                else:
+                    return Response('unAuthorized',status=status.HTTP_401_UNAUTHORIZED)
+            except Exception as e:
+                    print(e)
+                    return Response('payment unsuccesfull',status=status.HTTP_400_BAD_REQUEST)
+        else:
+            
+            return Response('payment unsuccesfull',status=status.HTTP_400_BAD_REQUEST)
+
+class GetUsersOrderItems(ListAPIView):
+    serializer_class = OrderedItemSerializer
+    authentication_classes = [JWTAuthentication]
+    permission_classes = [IsAuthenticated]
+    def get_queryset(self):
+         return OrderedItem.objects.filter(user = self.request.user)
+
+class GetUsersOrder(RetrieveAPIView):
+    serializer_class = OrderSerializer
+    authentication_classes = [JWTAuthentication]
+    permission_classes = [IsAuthenticated]
+    
+    def get_queryset(self):
+         return Order.objects.filter(user = self.request.user)
+
