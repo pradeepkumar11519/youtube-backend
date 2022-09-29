@@ -2457,6 +2457,396 @@
         }
     },
     {
+        "model": "admin.logentry",
+        "pk": 190,
+        "fields": {
+            "action_time": "2022-09-28T13:44:48.230",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "13",
+            "object_repr": "13 - pradeep605594975",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 191,
+        "fields": {
+            "action_time": "2022-09-28T13:44:48.234",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "12",
+            "object_repr": "12 - pradeep995313030",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 192,
+        "fields": {
+            "action_time": "2022-09-28T13:44:48.237",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "11",
+            "object_repr": "11 - pradeep55899001",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 193,
+        "fields": {
+            "action_time": "2022-09-28T13:44:48.241",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "10",
+            "object_repr": "10 - pradeep547985855",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 194,
+        "fields": {
+            "action_time": "2022-09-28T13:57:41.274",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "14",
+            "object_repr": "14 - pradeep650427457",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 195,
+        "fields": {
+            "action_time": "2022-09-28T16:01:40.228",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "17",
+            "object_repr": "17 - pradeep30136669",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 196,
+        "fields": {
+            "action_time": "2022-09-28T16:01:40.244",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "16",
+            "object_repr": "16 - pradeep503194368",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 197,
+        "fields": {
+            "action_time": "2022-09-28T16:01:40.247",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "15",
+            "object_repr": "15 - pradeep435185454",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 198,
+        "fields": {
+            "action_time": "2022-09-28T16:03:15.425",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "18",
+            "object_repr": "18 - pradeep782472016",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 199,
+        "fields": {
+            "action_time": "2022-09-28T16:04:28.709",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "20 - pradeep926682547",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 200,
+        "fields": {
+            "action_time": "2022-09-28T16:04:28.714",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "19",
+            "object_repr": "19 - pradeep571111643",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 201,
+        "fields": {
+            "action_time": "2022-09-28T16:15:33.859",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "21",
+            "object_repr": "21 - pradeep772455529",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 202,
+        "fields": {
+            "action_time": "2022-09-29T11:15:09.321",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "24",
+            "object_repr": "24 - pradeep311711428",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 203,
+        "fields": {
+            "action_time": "2022-09-29T11:15:09.327",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "23",
+            "object_repr": "23 - pradeep500191988",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 204,
+        "fields": {
+            "action_time": "2022-09-29T11:15:09.332",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "22",
+            "object_repr": "22 - pradeep611920066",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 205,
+        "fields": {
+            "action_time": "2022-09-29T11:49:02.744",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "25",
+            "object_repr": "25 - pradeep894233434",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 206,
+        "fields": {
+            "action_time": "2022-09-29T11:51:47.279",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "26",
+            "object_repr": "26 - pradeep93355058",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 207,
+        "fields": {
+            "action_time": "2022-09-29T11:55:53.870",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "4",
+            "object_repr": "28 - pradeep862679770",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 208,
+        "fields": {
+            "action_time": "2022-09-29T11:55:53.884",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "3",
+            "object_repr": "28 - pradeep862679770",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 209,
+        "fields": {
+            "action_time": "2022-09-29T11:55:53.887",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "27 - pradeep150560401",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 210,
+        "fields": {
+            "action_time": "2022-09-29T11:55:53.891",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "27 - pradeep150560401",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 211,
+        "fields": {
+            "action_time": "2022-09-29T11:55:57.895",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "28",
+            "object_repr": "28 - pradeep862679770",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 212,
+        "fields": {
+            "action_time": "2022-09-29T11:55:57.910",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "27",
+            "object_repr": "27 - pradeep150560401",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 213,
+        "fields": {
+            "action_time": "2022-09-29T12:05:13.291",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "29",
+            "object_repr": "29 - pradeep96387426",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 214,
+        "fields": {
+            "action_time": "2022-09-29T12:11:48.936",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "31",
+            "object_repr": "31 - pradeep394223259",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 215,
+        "fields": {
+            "action_time": "2022-09-29T12:11:48.950",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "30",
+            "object_repr": "30 - pradeep280130539",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 216,
+        "fields": {
+            "action_time": "2022-09-29T13:00:11.072",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "32",
+            "object_repr": "32 - pradeep530372209",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 217,
+        "fields": {
+            "action_time": "2022-09-29T13:41:33.339",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "35",
+            "object_repr": "35 - pradeep548289616",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 218,
+        "fields": {
+            "action_time": "2022-09-29T13:41:33.344",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "34",
+            "object_repr": "34 - pradeep550029912",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 219,
+        "fields": {
+            "action_time": "2022-09-29T13:41:33.348",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "33",
+            "object_repr": "33 - pradeep247929471",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
         "model": "auth.permission",
         "pk": 1,
         "fields": {
@@ -2857,7 +3247,7 @@
         "pk": 1,
         "fields": {
             "password": "pbkdf2_sha256$390000$SMAwZZ8jkmQrJ5KkFhWd69$VAAfkMUNIy0ykxiQaQhSb2l6Z6Uw6Td9ABByM7clRd8=",
-            "last_login": "2022-09-26T10:12:15.213",
+            "last_login": "2022-09-29T11:25:07.739",
             "is_superuser": true,
             "username": "pradeepkumar",
             "first_name": "",
@@ -2875,7 +3265,7 @@
         "pk": 2,
         "fields": {
             "password": "pbkdf2_sha256$390000$lOLph4qkIEte76ZCu1yYZ2$gfc5CYtnm+hypwPLNwNUazb5I9jDicC07H6Lx7M0bwE=",
-            "last_login": "2022-09-28T00:06:35.835",
+            "last_login": "2022-09-29T09:37:43.127",
             "is_superuser": false,
             "username": "pradeep",
             "first_name": "",
@@ -3014,6 +3404,14 @@
     },
     {
         "model": "sessions.session",
+        "pk": "1629nitu0s3um7km3cimccm5n5u0pnkq",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBOoWVw6b5nIDMM2KqBpLQr491Nky50-997_60C7dsc9pbWsIi6KlCX340pPlM5gDyo3KuOtWzrwvpQ9Embnqqk1-10_w5mavNR02DFxd7ljJGRDXc9WAceMBmKUSyY3pLnMXFC7GxG6GBAETN67636fAHwlDer:1odmVn:XZGLLhfyfZuii0ZbgEeFbAgpo17ibiyOv7CJoyNdMv8",
+            "expire_date": "2022-10-13T11:25:07.743"
+        }
+    },
+    {
+        "model": "sessions.session",
         "pk": "2jn87y1eumjsu2vf7npsm6sl0kaxwb9l",
         "fields": {
             "session_data": ".eJxVjEEOwiAQRe_C2pBOoWVw6b5nIDMM2KqBpLQr491Nky50-997_60C7dsc9pbWsIi6KlCX340pPlM5gDyo3KuOtWzrwvpQ9Embnqqk1-10_w5mavNR02DFxd7ljJGRDXc9WAceMBmKUSyY3pLnMXFC7GxG6GBAETN67636fAHwlDer:1oby0M:fhVixxeuxof9JZY3pDZ7RMop6hicGbB8jvHhTFiZAiQ",
@@ -3034,6 +3432,14 @@
         "fields": {
             "session_data": ".eJxVjEEOwiAQRe_C2pBOoWVw6b5nIDMM2KqBpLQr491Nky50-997_60C7dsc9pbWsIi6KlCX340pPlM5gDyo3KuOtWzrwvpQ9Embnqqk1-10_w5mavNR02DFxd7ljJGRDXc9WAceMBmKUSyY3pLnMXFC7GxG6GBAETN67636fAHwlDer:1ocTqn:Q28KcdP_MCYSXK6VT84CXt5TxlKrertbUOjkGmc9yrs",
             "expire_date": "2022-10-09T21:17:25.739"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "pv82i3rcxaynxv9worhj0404n2mb8n0o",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBOoWVw6b5nIDMM2KqBpLQr491Nky50-997_60C7dsc9pbWsIi6KlCX340pPlM5gDyo3KuOtWzrwvpQ9Embnqqk1-10_w5mavNR02DFxd7ljJGRDXc9WAceMBmKUSyY3pLnMXFC7GxG6GBAETN67636fAHwlDer:1odl2S:WNSi_M-SOT5BXSLBET0ECGdPfpVj51-_uxDJAT_bcdE",
+            "expire_date": "2022-10-13T09:50:44.170"
         }
     },
     {
@@ -3093,36 +3499,6 @@
     },
     {
         "model": "api.kartelement",
-        "pk": 103,
-        "fields": {
-            "product": 8,
-            "product_title": "UNISEX PLAIN - ROUND NECK - HALF SLEEVE",
-            "product_image": "http://127.0.0.1:8000/media/image/maroon_front.png",
-            "product_price": 550,
-            "user": "pradeep",
-            "quantity": 4,
-            "total_price": 2200,
-            "color": "maroon",
-            "size": "S"
-        }
-    },
-    {
-        "model": "api.kartelement",
-        "pk": 105,
-        "fields": {
-            "product": 8,
-            "product_title": "UNISEX PLAIN - ROUND NECK - HALF SLEEVE",
-            "product_image": "http://127.0.0.1:8000/media/image/black_front.png",
-            "product_price": 550,
-            "user": "pradeep",
-            "quantity": 4,
-            "total_price": 2200,
-            "color": "black",
-            "size": "XXL"
-        }
-    },
-    {
-        "model": "api.kartelement",
         "pk": 108,
         "fields": {
             "product": 8,
@@ -3138,74 +3514,126 @@
     },
     {
         "model": "api.kartelement",
-        "pk": 109,
+        "pk": 112,
         "fields": {
             "product": 8,
             "product_title": "UNISEX PLAIN - ROUND NECK - HALF SLEEVE",
-            "product_image": "https://firebasestorage.googleapis.com/v0/b/cloth-f7986.appspot.com/o/CLOTH_IMAGES%2Fwhite_front.png?alt=media&token=f26852bc-083a-4b36-8b43-d09f17fe6736",
+            "product_image": "http://127.0.0.1:8000/media/image/green_fornt.png",
             "product_price": 550,
             "user": "pradeep",
             "quantity": 3,
             "total_price": 1650,
-            "color": "white",
-            "size": "M"
+            "color": "green",
+            "size": "S"
         }
     },
     {
         "model": "api.order",
-        "pk": 10,
+        "pk": 36,
         "fields": {
             "user": "pradeep",
             "username": "pradeep",
             "email": "gangsta@gmail.com",
-            "Phone_Number": "",
-            "address": "",
-            "city": "",
-            "state": "",
-            "pincode": "",
-            "total_ordered_price": "4400",
-            "final_amount_with_gst": "4503.84 Rupees",
+            "Phone_Number": "9243182530",
+            "address": "gggggggg",
+            "city": "fgrsfgrfs",
+            "state": "TAMIL NADU",
+            "pincode": "567655",
+            "total_ordered_price": "2750",
+            "final_amount_with_gst": "2964.9 Rupees",
             "payment_method": "Razorpay",
             "payment_id": null,
             "delivery_status": 1,
             "payment_status": 1,
             "message": null,
-            "tracking_no": "pradeep547985855",
-            "created_at_time": "11:12:37 pm",
+            "tracking_no": "pradeep906237021",
+            "created_at_time": "1:42:37 pm",
             "updated_at_time": null,
             "created_at_date": "23rd September 2022",
             "updated_at_date": null,
-            "razorpay_order_id": "order_KN0jMym5DlLr7O",
-            "razorpay_payment_id": "pay_KN0jl8lpWCcOzA",
-            "razorpay_payment_signature": "8e8853cbb96460a22a6f8f40bbe34ae40f668bccd719f9b65dbf467fd1d024c3"
+            "razorpay_order_id": "order_KNe5nXERhaehJm",
+            "razorpay_payment_id": "pay_KNe5vRhhkNOVLC",
+            "razorpay_payment_signature": "01d18cef37c7b0660d2709d64f4ed3e07041ba301f1e69d6139ba5108de8a20c"
+        }
+    },
+    {
+        "model": "api.order",
+        "pk": 37,
+        "fields": {
+            "user": "pradeep",
+            "username": "pradeep",
+            "email": "gangsta@gmail.com",
+            "Phone_Number": "8073010756",
+            "address": "sahakarnagar",
+            "city": "bangalore",
+            "state": "KARNATAKA",
+            "pincode": "560090",
+            "total_ordered_price": "4400",
+            "final_amount_with_gst": "4653.84 Rupees",
+            "payment_method": "Razorpay",
+            "payment_id": null,
+            "delivery_status": 1,
+            "payment_status": 1,
+            "message": null,
+            "tracking_no": "pradeep375684341",
+            "created_at_time": "1:47:51 pm",
+            "updated_at_time": null,
+            "created_at_date": "23rd September 2022",
+            "updated_at_date": null,
+            "razorpay_order_id": "order_KNeBKk2cwqGUSc",
+            "razorpay_payment_id": "pay_KNeBS4ZKbY2QLI",
+            "razorpay_payment_signature": "e182ea99e9a4e4d1406838b7b8bffc29d0abb6967e7e2189e4325c5b6a195db8"
         }
     },
     {
         "model": "api.ordereditem",
-        "pk": 64,
+        "pk": 18,
         "fields": {
-            "order": 10,
+            "user": "pradeep",
+            "order": 36,
             "product": 8,
+            "title_of_product": "UNISEX PLAIN - ROUND NECK - HALF SLEEVE",
             "price_of_product": 550,
-            "quantity": 4,
-            "total_ordered_price": 2200,
-            "size": "S",
+            "quantity": 5,
+            "total_ordered_price": 2750,
+            "final_amount_with_gst": "2964.9 Rupees",
+            "size": "XXL",
             "color": "maroon",
             "ordered_image_url": "http://127.0.0.1:8000/media/image/maroon_front.png"
         }
     },
     {
         "model": "api.ordereditem",
-        "pk": 65,
+        "pk": 19,
         "fields": {
-            "order": 10,
+            "user": "pradeep",
+            "order": 37,
             "product": 8,
+            "title_of_product": "UNISEX PLAIN - ROUND NECK - HALF SLEEVE",
             "price_of_product": 550,
-            "quantity": 4,
-            "total_ordered_price": 2200,
-            "size": "XXL",
-            "color": "black",
-            "ordered_image_url": "http://127.0.0.1:8000/media/image/black_front.png"
+            "quantity": 5,
+            "total_ordered_price": 2750,
+            "final_amount_with_gst": "4653.84 Rupees",
+            "size": "XL",
+            "color": "gray",
+            "ordered_image_url": "http://127.0.0.1:8000/media/image/gray_front.png"
+        }
+    },
+    {
+        "model": "api.ordereditem",
+        "pk": 20,
+        "fields": {
+            "user": "pradeep",
+            "order": 37,
+            "product": 8,
+            "title_of_product": "UNISEX PLAIN - ROUND NECK - HALF SLEEVE",
+            "price_of_product": 550,
+            "quantity": 3,
+            "total_ordered_price": 1650,
+            "final_amount_with_gst": "4653.84 Rupees",
+            "size": "S",
+            "color": "green",
+            "ordered_image_url": "http://127.0.0.1:8000/media/image/green_fornt.png"
         }
     }
 ]
